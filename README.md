@@ -34,5 +34,8 @@ A comprehensive Nginx configuration for running Plex Media Server behind a rever
 
 ## Reddit feedback
 - u/geosmack recommends moving cache to RAM (/dev/shm) instead of /tmp
+- They config is below
+   https://gist.github.com/gejames/ca02abd88b9b12c57c73a84916fb12f5
+   
 - u/JCBird1012 points out setting plex specific headers are not necessary as nginx does not remove them in the first place
   
