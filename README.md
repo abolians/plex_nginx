@@ -19,3 +19,8 @@ A comprehensive Nginx configuration for running Plex Media Server behind a rever
 - SSL certificates for your domain
 - Plex Media Server running on your local network
 - Domain with DNS managed by Cloudflare (optional, for remote access)
+
+## Reddit feedback
+- u/geosmack recommends moving cache to RAM (/dev/shm) instead of /tmp
+- u/JCBird1012 points out setting plex specific headers are not necessary as nginx does not remove them in the first place
+  
